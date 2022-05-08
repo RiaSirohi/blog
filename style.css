@@ -1,0 +1,193 @@
+body {
+    background: grey;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+header {
+    margin: 5px;
+    background: url("header_background.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+
+img {
+    width: 100px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 50%;
+} 
+
+h1 {
+    padding-bottom: 10px;
+}
+.main {
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 0.5% 0 0.1% 0;
+}
+
+h4 {
+    border: 4px dashed skyblue;
+    /* padding: 0.5% 0.5%; */
+}
+.about>h4 {
+    margin: 0 45%;
+    padding: 0.5%;
+}
+
+p {
+    padding: 0 2%;
+}
+
+q {
+    padding-left: 70%;
+}
+
+.schedule>h4 {
+    margin: 0 40%;
+    padding: 0.5% 0 0.5% 1.6%;
+}
+
+table {
+    width: 90%;
+    font-size: 11pt;
+}
+
+table, th, td {
+    margin: 10px 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.skill>h4 {
+    margin: 0 45%;
+    padding: 0.5%;
+}
+
+.media>h4 {
+    margin: 1% 45%;
+    padding: 0.5%;
+}
+
+iframe {
+    margin: 1% 27%;
+}
+
+.contact>h4 {
+    margin: 1% 43%;
+    padding: 0.5% 0 0.5% 2%;
+}
+
+form {
+    margin-left: 15%;
+}
+
+input {
+    width: 80%;
+    background-color: rgb(201, 201, 201);
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 5px;
+    color: rgb(26, 25, 25);
+}
+
+.submit {
+    background-color: rgb(0, 160, 172); 
+    width: 7%;
+    margin: 0 38%;
+    padding-left: 1%; 
+    color: white; 
+    cursor: pointer;
+}
+
+footer>h4 {
+    margin: 0 45%;
+    padding: 0.2% 0.3%;
+}
+
+.btn {
+    margin: 1% 0 1% 37.5%;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 850px){
+
+    
+    .about>h4 {
+        margin: 5px 67px;
+    }
+
+    p {
+        padding: 0 20px;
+    }
+
+    q {
+        padding-left: 16px;
+    }
+
+    .schedule>h4 {
+        margin: 5px 22px;
+        padding-left: 9px;
+    }
+
+    table, th, td {
+        margin: 10px;
+        padding: 0px;
+        table-layout: fixed;
+    }
+
+    .skill>h4 {
+        margin: 5px 68px;
+        padding: 2px;
+    }
+
+    .media>h4 {
+        margin: 5px 65px;
+        padding: 3px;
+    }
+
+    iframe {
+        margin: 2px 5px 10px 7px;
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    .contact>h4 {
+        margin: 5px 60px;
+        padding: 2px;
+    }
+
+    .submit {
+        width: 50px;
+        margin-left: 50px;
+    }
+
+    footer {
+        padding-bottom: 100px;
+    }
+    footer>h4 {
+        margin: 5px 60px;
+        padding: 2px 6px;
+    }
+
+    .btn {
+        margin: 0px;
+    }
+
+    button {
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
