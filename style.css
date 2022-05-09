@@ -126,7 +126,8 @@ button {
 
     
     .about>h4 {
-        margin: 5px 67px;
+        margin: 1% 36%;
+        padding: 1% 0 1% 3%;
     }
 
     p {
@@ -134,12 +135,12 @@ button {
     }
 
     q {
-        padding-left: 16px;
+        padding-left: 40%;
     }
 
     .schedule>h4 {
-        margin: 5px 22px;
-        padding-left: 9px;
+        margin: 1% 25%;
+        padding: 1% 0 1% 4%;
     }
 
     table, th, td {
@@ -149,41 +150,42 @@ button {
     }
 
     .skill>h4 {
-        margin: 5px 68px;
-        padding: 2px;
+        margin: 1% 36%;
+        padding: 1% 0 1% 3.5%;
     }
 
     .media>h4 {
-        margin: 5px 65px;
-        padding: 3px;
+        margin: 1% 36%;
+        padding: 1% 0 1% 3%;
     }
 
     iframe {
-        margin: 2px 5px 10px 7px;
+        margin: 2% 0 3% 21%;
         border-radius: 10px;
         width: 200px;
     }
 
     .contact>h4 {
-        margin: 5px 60px;
-        padding: 2px;
+        margin: 1% 36%;
+        padding: 1% 0 1% 1.5%;
     }
 
     .submit {
-        width: 50px;
-        margin-left: 50px;
+        width: 20%;
+        margin-left: 29%;
     }
 
     footer {
         padding-bottom: 100px;
+        text-align: center;
     }
     footer>h4 {
-        margin: 5px 60px;
+        margin: 1% 36%;
         padding: 2px 6px;
     }
 
     .btn {
-        margin: 0px;
+        margin: 3%;
     }
 
     button {
